@@ -1,0 +1,433 @@
+body {
+   margin: 0;
+}
+
+.menu,
+.menu1,
+.menu2 {
+   list-style: none;
+   border: 1px solid #c0c0c0;
+   float: left;
+
+   font-size: 130%;
+   background: #dabb20;
+   color: rgb(0, 0, 0);
+   font-family: sans-serif;
+   font-weight: bold;
+   margin-right: 20px;
+   top: 10px;
+
+   border-radius: 50px;
+   border: 0;
+   position: relative;
+   padding: 20px 50px;
+
+
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+
+}
+
+
+
+.menu li,
+.menu1 li,
+.menu2 li {
+   position: relative;
+   float: left;
+}
+
+.menu li a,
+.menu1 li a,
+.menu2 li a {
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   padding: 5px 10px;
+   display: block;
+}
+
+.menu1 {
+   color: white;
+}
+
+.menu li a:hover,
+.menu1 li a:hover,
+.menu2 li a:hover {
+   background: #33333300;
+   color: #fff;
+   -moz-box-shadow: 0 3px 10px 0 #cccccc00;
+   -webkit-box-shadow: 0 3px 10px 0 #cccccc00;
+   text-shadow: 0px 0px 5px #ffffff00;
+}
+
+.menu li ul,
+.menu1 li ul,
+.menu2 li ul {
+   display: none;
+   position: relative;
+   top: 100px;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0);
+}
+
+.menu1 li {
+   color: white;
+
+}
+
+#sombra {
+   text-decoration: none;
+
+}
+
+
+
+#image {
+
+   width: 35%;
+   height: auto;
+   top: 160px;
+   right: 350px;
+   position: absolute;
+   z-index: 4;
+}
+
+#image2 {
+   height: 80%;
+   width: auto;
+right: 100px;
+   top: -110px;
+   position: absolute;
+   z-index: 5;
+
+}
+
+#image4 {
+   width: 25%;
+   height: 45%;
+   right: -65px;
+   top: 380px;
+   position: absolute;
+}
+
+#fundo1 {
+  
+   top: 100px;
+   right: 750px;
+   margin-top: 150px;
+   position: relative;
+   z-index: 2;
+   opacity: 70%;
+   height: 350px;
+   
+
+}
+
+#fundo2 {
+   
+   top: 100px;
+   left: -500px;
+   margin-top: 150px;
+   position: relative;
+   z-index: 1;
+   opacity: 70%;
+   height: 350px;
+   
+}
+#fundo3 {
+   
+   top: -110px;
+   right: -150px;
+   margin-top: 150px;
+   position: relative;
+   z-index: 2;
+   opacity: 80%;
+   height: 350px;
+ 
+
+}
+
+#fundo4 {
+   
+    top: 50px;
+   left: 50px;
+   margin-top: 150px;
+   position: relative;
+   z-index: 3;
+   opacity: 80%;
+   height: 350px;
+  
+}
+.wrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.count-wrapper {
+   bottom: 120px;
+   width: calc(25% - 20px);
+   /* 25% width with some margin */
+   height: 121px;
+   background: #dabb20;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 0.6rem;
+   
+}
+
+.count-wrapper div {
+   font-weight: 900;
+   font-size: 2rem;
+   color: #545050;
+}
+
+.count-wrapper span {
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+   background: #a08d2e;
+}
+
+.volume-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+#volumeRange {
+   width: 150px;
+   margin-right: 10px;
+}
+
+#muteButton {
+   cursor: pointer;
+   border-radius: 100px 100px 100px 100px;
+   height: 30px;
+   width: 70px;
+   background-color: #dabb20;
+}
+
+#days {
+   font-size: 100px;
+}
+
+#hours {
+   font-size: 80px;
+}
+
+#min {
+   font-size: 60px;
+}
+
+#sec {
+   font-size: 40px;
+}
+
+#copy {
+
+   font-size: 20px;
+   color: white;
+   position: absolute;
+   left: 385px;
+   top: 1400px;
+}
+
+/* Media queries for responsive Mobile  */
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 950px) {
+
+   .menu,
+   .menu1,
+   .menu2 {
+      font-size: 100%;
+      padding: 15px 30px;
+      top: -250px;
+   }
+
+   .menu li,
+   .menu1 li,
+   .menu2 li {
+      margin-right: 10px;
+   }
+
+   .menu li a,
+   .menu1 li a,
+   .menu2 li a {
+      padding: 5px 8px;
+   }
+
+   .count-wrapper {
+      width: calc(50% - 20px);
+      /* 50% width with some margin */
+   }
+
+   #image {
+      width: 600px;
+      height: auto;
+      top: 980px;
+      left: 30px;
+      position: absolute;
+
+
+   }
+
+   #image2 {
+      height: 50%;
+      width: auto;
+      margin-top: -180px;
+      margin-left: 0;
+      left: 300px;
+      top: 110px;
+      position: absolute;
+
+   }
+
+   #image4 {
+      width:  25%;
+      height: auto;
+      left: 550px;
+      top: 500px;
+      position: absolute;
+   }
+
+   #fundo1 {
+  
+      top: -250px;
+      right: 1px;
+      margin-top: 150px;
+      position: relative;
+      z-index: 1;
+      opacity: 80%;
+      height: 350px;
+      
+   
+   }
+   
+   #fundo2 {
+      
+      top: -780px;
+      left: 230px;
+      margin-top: 150px;
+      position: relative;
+      z-index: 1;
+      opacity: 70%;
+      height: 350px;
+      
+   }
+   #fundo3 {
+      
+      top: -950px;
+      right: 1px;
+      margin-top: 150px;
+      position: relative;
+      z-index: 4;
+      opacity: 60%;
+      height: 340px;
+    
+   
+   }
+   
+   #fundo4 {
+      
+      top: -1440px;
+      left: 230px;
+      margin-top: 150px;
+      position: relative;
+      z-index: 3;
+      opacity: 80%;
+      height: 350px;
+     
+   }
+
+   #vid {
+      width: 400px;
+      height: auto;
+      margin-top: 250px;
+      height: 200px;
+      left: -10px;
+      top: -30px;
+      position: relative;
+
+   }
+
+   .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+
+   }
+
+   .count-wrapper {
+      width: calc( 80px);
+      /* 25% width with some margin */
+      height: 80px;
+      background: #dabb20;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0.6rem;
+      right: -130px;
+      bottom: 0;
+      top: 1050px;
+
+   }
+
+   .count-wrapper div {
+      font-weight: 900;
+      font-size: 2rem;
+      color: #545050;
+   }
+
+   .count-wrapper span {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      background: #a08d2e;
+   }
+
+   #days {
+      font-size: 2rem;
+   }
+
+   #hours {
+      font-size: 2rem;
+   }
+
+   #min {
+      font-size: 2rem;
+   }
+
+   #sec {
+      font-size: 2rem;
+
+   }
+
+   #segund {
+      font-size: 85%;
+
+   }
+
+   #copy {
+
+      font-size: 10px;
+      color: white;
+      position: absolute;
+      left: 160px;
+      top: 1700px;
+      margin-right: -120px;
+
+   }
+
+
+
+}
