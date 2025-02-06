@@ -113,7 +113,7 @@ right: 100px;
 
 #fundo1 {
   
-   top: 100px;
+   top: 50px;
    right: 750px;
    margin-top: 150px;
    position: relative;
@@ -126,8 +126,8 @@ right: 100px;
 
 #fundo2 {
    
-   top: 100px;
-   left: -700px;
+   top: 70px;
+   left: -750px;
    margin-top: 150px;
    position: relative;
    z-index: 1;
@@ -138,7 +138,7 @@ right: 100px;
 #fundo3 {
    
    top: -170px;
-   right: -150px;
+   right: -120px;
    margin-top: 150px;
    position: relative;
    z-index: 2;
