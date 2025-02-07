@@ -1,14 +1,9 @@
 #n {
    position: relative;
-   z-index: 1;
+   z-index: 2;
     width: 150px;
    
 }
-
-.lab {
-    width: 350px;
-}
-
 #img2 {
     position: absolute;
     z-index: 1;
@@ -18,45 +13,55 @@
     right: 1080px;
 
  }
+
+ h1 {
+    position: relative;
+    z-index: 2;
+ }
+
+.lab {
+    width: 350px;
+}
 #l1 {
     position: relative;
     top: 70px;
     left: 40px;
-    z-index: 1;
+    z-index: 2;
  }
 
  #l2 {
     position: relative;
     top: 100px;
     left: -320px;
-    z-index: 1;
+    z-index: 2;
  }
 
  #l3 {
     position: relative;
     top: 130px;
     right: 681px;
-    z-index: 1;
+    z-index: 2;
  }
 
  #l4 {
     position: relative;
     top: 160px;
     right: 1042px;
-    z-index: 1;
+    z-index: 2;
  }
 
  #enviar {
     position: relative;
 
-    top: 250px;
-    left: 160px;
+    top: 200px;
+    right: -160px;
     height: 50px;
     width: 120px;
     font-size: 20px;
     border-radius: 10px;
+    z-index: 3;
     background-color: black;
-    color: rgb(255, 255, 255);
+    color: white;
  }
 
  
@@ -71,9 +76,9 @@
 h2 {
     position: relative;
     top: 80px;
+    z-index: 2;
 }
  
-
 
 @media only screen and (min-width: 320px) and (max-width: 950px) {
 
