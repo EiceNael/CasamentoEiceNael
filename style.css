@@ -132,7 +132,7 @@ right: 100px;
 
 .count-wrapper {
    bottom: 120px;
-   width: calc(25% - 20px);
+   width: calc(10% - 20px);
    /* 25% width with some margin */
    height: 120px;
    background: #dabb20;
