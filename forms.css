@@ -8,6 +8,16 @@
 .lab {
     width: 350px;
 }
+
+#img2 {
+    position: absolute;
+    z-index: 1;
+    height: 520px;
+    width: 450px;
+    top: -10px;
+    right: 1080px;
+
+ }
 #l1 {
     position: relative;
     top: 70px;
