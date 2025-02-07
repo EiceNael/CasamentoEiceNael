@@ -134,7 +134,7 @@ right: 100px;
    bottom: 120px;
    width: calc(25% - 20px);
    /* 25% width with some margin */
-   height: 140px;
+   height: 110px;
    background: #dabb20;
    position: relative;
    display: flex;
