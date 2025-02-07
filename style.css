@@ -96,7 +96,7 @@ body {
 #image2 {
    height: 80%;
    width: auto;
-right: 100px;
+   right: 100px;
    top: -110px;
    position: absolute;
    z-index: 5;
@@ -160,24 +160,7 @@ right: 100px;
    background: #a08d2e;
 }
 
-.volume-container {
-   display: flex;
-   align-items: center;
-   margin-bottom: 20px;
-}
 
-#volumeRange {
-   width: 150px;
-   margin-right: 10px;
-}
-
-#muteButton {
-   cursor: pointer;
-   border-radius: 100px 100px 100px 100px;
-   height: 30px;
-   width: 70px;
-   background-color: #dabb20;
-}
 
 #days {
    font-size: 100px;
