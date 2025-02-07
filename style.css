@@ -131,8 +131,8 @@ right: 100px;
 }
 
 .count-wrapper {
-   bottom: -200px;
-   left: 500px;
+   bottom: 900px;
+   left: 1250px;
    width: calc(200px);
    /* 25% width with some margin */
    height: 120px;
