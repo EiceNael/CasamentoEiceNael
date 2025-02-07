@@ -104,9 +104,9 @@ right: 100px;
 }
 
 #image4 {
-   width: 25%;
-   height: 45%;
-   right: -65px;
+   width: 250px;
+   height: 250px;
+   left: 1250px;
    top: 380px;
    position: absolute;
 }
