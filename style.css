@@ -104,10 +104,10 @@ right: 100px;
 }
 
 #image4 {
-   width: 250px;
-   height: 250px;
+   width: 150px;
+   height: 150px;
    left: 1250px;
-   top: 50px;
+   top: 5px;
    position: absolute;
 }
 
@@ -131,8 +131,8 @@ right: 100px;
 }
 
 .count-wrapper {
-   bottom: 700px;
-   left: 1250px;
+   bottom: 720px;
+   left: 1260px;
    width: calc(200px);
    /* 25% width with some margin */
    height: 120px;
