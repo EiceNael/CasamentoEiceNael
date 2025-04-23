@@ -76,6 +76,16 @@ body {
 
 }
 
+ .menu{
+
+      opacity: 0%;
+   }
+
+   .menu1{
+
+      opacity: 0%;
+   }
+
 #sombra {
    text-decoration: none;
 
@@ -212,6 +222,16 @@ body {
    .menu1 li a,
    .menu2 li a {
       padding: 5px 8px;
+   }
+
+    .menu{
+
+      opacity: 0%;
+   }
+
+   .menu1{
+
+      opacity: 0%;
    }
 
    .count-wrapper {
