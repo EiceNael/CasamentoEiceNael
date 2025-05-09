@@ -44,7 +44,7 @@ function calcularDiferencaData(dataAlvo) {
 
 // Função para atualizar o contador
 function atualizarContador() {
-    const dataAlvo = '2025-06-28'; // Substitua pela sua data alvo
+    const dataAlvo = '2025-10-11'; // Substitua pela sua data alvo
     const diferenca = calcularDiferencaData(dataAlvo);
 
     // Exibe a contagem regressiva
