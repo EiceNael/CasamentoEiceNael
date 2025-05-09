@@ -103,6 +103,10 @@ h2 {
 .lab {
     width: 350px;
 }
+
+#convite {
+   opacity: 0%;
+}
 #l1 {
     position: relative;
     top: 70px;
