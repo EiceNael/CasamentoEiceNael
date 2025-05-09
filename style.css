@@ -286,16 +286,11 @@ bottom: 700px;
    
    }
 
-   #vid {
-      width: 400px;
-      height: auto;
-      margin-top: 250px;
-      height: 200px;
-      left: -10px;
-      top: -30px;
-      position: relative;
-
-   }
+#insta{
+   position: relative;
+   bottom: 800px;
+   left: 600px;
+ }
 
    .wrapper {
       display: flex;
