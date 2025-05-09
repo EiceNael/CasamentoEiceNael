@@ -210,11 +210,12 @@ bottom: 700px;
 @media only screen and (min-width: 320px) and (max-width: 950px) {
 
     #insta{
-      position: absolute;
+      position: relative;
       bottom: 500px;
       left: 100px;
       height: 500px;  
       width: 200px;
+      z-index: 0;
    }
    .menu,
    .menu1,
