@@ -209,6 +209,13 @@ bottom: 700px;
 
 @media only screen and (min-width: 320px) and (max-width: 950px) {
 
+    #insta{
+      position: relative;
+      bottom: 500px;
+      left: 100px;
+      height: 500px;  
+      width: 200px;
+   }
    .menu,
    .menu1,
    .menu2 {
@@ -286,11 +293,7 @@ bottom: 700px;
    
    }
 
-#insta{
-   position: absolute;
-   bottom: 1500px;
-   left: 200px;
- }
+
 
    .wrapper {
       display: flex;
