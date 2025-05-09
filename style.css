@@ -214,7 +214,7 @@ bottom: 700px;
       bottom: 500px;
       left: 100px;
       height: 500px;  
-      width: 1000px;
+      width: 200px;
    }
    .menu,
    .menu1,
@@ -282,7 +282,7 @@ bottom: 700px;
 
    #fundo1 {
   
-      top: -300px;
+      top: -100px;
       right: -15px;
       margin-top: 150px;
       position: relative;
