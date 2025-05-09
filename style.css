@@ -222,7 +222,7 @@ bottom: 700px;
    .menu2 {
       font-size: 100%;
       padding: 15px 30px;
-      top: -100px;
+      top: -10px;
    }
 
    .menu li,
@@ -313,7 +313,7 @@ bottom: 700px;
       align-items: center;
       flex-direction: column;
       margin: 0.6rem;
-      left: 100px;
+      left: 80px;
       bottom: 0;
       top: 900px;
 
