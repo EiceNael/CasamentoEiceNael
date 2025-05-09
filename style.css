@@ -287,9 +287,9 @@ bottom: 700px;
    }
 
 #insta{
-   position: relative;
-   bottom: 800px;
-   left: 600px;
+   position: absolute;
+   bottom: 1500px;
+   left: 200px;
  }
 
    .wrapper {
