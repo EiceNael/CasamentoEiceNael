@@ -114,11 +114,11 @@ h2 {
    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
    line-height: 1.7;
    text-align: justify;
-
+   z-index:2;
    position: absolute;
 
-   left: 500px;
-   top: 10px;
+   left: -500px;
+   top: -100px;
 
 }
 
@@ -141,8 +141,8 @@ h2 {
       z-index: 1;
       height: 520px;
       width: 450px;
-      top: -10px;
-      right: 50px;
+      top: 10px;
+      right: 10px;
       
    }
 
@@ -205,7 +205,7 @@ h2 {
 
    #form {
 
-      top: 200px;
+      top: 400px;
       left: 600px;
       position: relative;
    }
@@ -228,7 +228,7 @@ h2 {
    position: relative;
 
    left: 20px;
-   top: 400px;
+   top: 700px;
    z-index:2;
    
 
