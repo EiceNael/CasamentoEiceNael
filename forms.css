@@ -140,9 +140,9 @@ h2 {
       z-index: 1;
       height: 520px;
       width: 450px;
-      top: -100px;
-      right: 200px;
-      opacity: 0%;
+      top: 100px;
+      right: -10px;
+      
    }
 
    #l1 {
