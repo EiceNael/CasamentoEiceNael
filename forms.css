@@ -228,7 +228,9 @@ h2 {
    position: relative;
 
    left: 20px;
-   top: 100px;
+   top: 400px;
+   z-index:2;
+   
 
 
 }
