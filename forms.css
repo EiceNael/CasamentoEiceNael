@@ -140,9 +140,9 @@ h2 {
       z-index: 1;
       height: 520px;
       width: 450px;
-      top: 100px;
-      right: 10px;
-      
+      top: -10px;
+      right: 1080px;
+      opacity: 0%;
    }
 
    #l1 {
@@ -204,8 +204,8 @@ h2 {
 
    #form {
 
-      top: 100px;
-      left: -200px;
+      top: 50px;
+      left: 600px;
       position: relative;
    }
 
@@ -221,20 +221,16 @@ h2 {
       top: 10px;
       right: 590px;
    }
-}
 
-#aviso {
+   #aviso{
 
-   background-color: rgba(255, 255, 255, 0.9);
-   padding: 30px;
-   border-radius: 15px;
-   width: 350px;
-   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-   line-height: 1.7;
-   text-align: justify;
    position: relative;
-   left: 50px;
-   top: -200px;
-   z-index:2;
+
+   left: 20px;
+   top: -300px;
+
+   width: 320px;
+
+}
 }
  
