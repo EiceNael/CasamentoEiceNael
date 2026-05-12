@@ -116,7 +116,7 @@ h2 {
    text-align: justify;
    position: relative;
    z-index: 3;
-   right: -100px;
+   right: -500px;
    top: 100px;
 }
 
@@ -229,7 +229,6 @@ h2 {
    left: 20px;
    top: -300px;
 
-   width: 320px;
 
 }
 }
