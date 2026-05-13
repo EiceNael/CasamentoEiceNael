@@ -117,7 +117,7 @@ h2 {
 
    position: absolute;
 
-   left: -200px;
+   left: -1000px;
    top: -110px;
 
 }
@@ -142,8 +142,8 @@ h2 {
       z-index: 1;
       height: 520px;
       width: 450px;
-      top: 500px;
-      right: 700px;
+      top: -500px;
+      right: 750px;
    
    }
 
