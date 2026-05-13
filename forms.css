@@ -117,7 +117,7 @@ h2 {
 
    position: absolute;
 
-   left: 1080px;
+   left: 200px;
    top: 10px;
 
 }
@@ -143,7 +143,7 @@ h2 {
       height: 520px;
       width: 450px;
       top: -10px;
-      right: 1080px;
+      right: 1000px;
    
    }
 
@@ -206,7 +206,7 @@ h2 {
 
    #form {
 
-      top: 50px;
+      top: 800px;
       left: 600px;
       position: relative;
    }
@@ -235,6 +235,6 @@ h2 {
    line-height: 1.7;
    text-align: justify;
    position: relative;
-   left: 130px;
+   left: 80px;
    top: 300px;
 }
