@@ -111,13 +111,20 @@ h2 {
    padding: 30px;
    border-radius: 15px;
    width: 350px;
+
    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+
    line-height: 1.7;
    text-align: justify;
 
    position: relative;
-   left: 5px;
-   top: 5px;
+
+   left: 1350px;
+   top: -500px;
+
+   z-index: 10;
+
+   color: black;
 
 }
 
