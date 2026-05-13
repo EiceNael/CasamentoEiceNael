@@ -117,10 +117,10 @@ h2 {
    line-height: 1.7;
    text-align: justify;
 
-   position: absolute;
+   position: relative;
 
-   left: 1000px;
-   top: 100px;
+   left: -1000px;
+   top: -100px;
 
   
 
