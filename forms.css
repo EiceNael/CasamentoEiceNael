@@ -142,8 +142,8 @@ h2 {
       z-index: 1;
       height: 520px;
       width: 450px;
-      top: -500px;
-      right: 500px;
+      top: -300px;
+      right: -500px;
    
    }
 
@@ -206,7 +206,7 @@ h2 {
 
    #form {
 
-      top: 800px;
+      top: 600px;
       left: 600px;
       position: relative;
    }
