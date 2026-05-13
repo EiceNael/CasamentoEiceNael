@@ -141,8 +141,8 @@ h2 {
       z-index: 1;
       height: 520px;
       width: 450px;
-      top: 500px;
-      left: 5px;
+      top: 200px;
+      left: 500px;
    
    }
 
@@ -234,6 +234,6 @@ h2 {
    line-height: 1.7;
    text-align: justify;
    position: relative;
-   left: 500px;
+   left: 5px;
    top: -900px;
 }
